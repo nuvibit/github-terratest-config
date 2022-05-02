@@ -2,15 +2,13 @@
     "include": [
         {
             "terraform_version": "= 1.0",
-            "provider_version": {
-                "aws": "= 4.0"
-            }
+            "provider_name": "aws",
+            "provider_version": "= 4.0"
         },
         {
             "terraform_version": ">= 1.0",
-            "provider_version": {
-                "aws": ">= 4.0"
-            }
+            "provider_name": "aws",
+            "provider_version": ">= 4.0"
         }
     ]
 }
