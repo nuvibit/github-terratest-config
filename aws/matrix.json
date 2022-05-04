@@ -1,7 +1,7 @@
 {
     "include": [
         {
-            "terraform_version": "= 0.15.0",
+            "terraform_version": "= 1.0.0",
             "provider_version": {
                 "hashicorp/aws": "4.0.0"
             }
