@@ -13,9 +13,9 @@
             }
         },
         {
-            "terraform_version": "~> 1.3",
+            "terraform_version": ">= 1.3",
             "provider_version": {
-                "hashicorp/aws": "5.X.X"
+                "hashicorp/aws": "X.X.X"
             }
         }
     ]
