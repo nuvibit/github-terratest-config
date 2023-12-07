@@ -3,7 +3,7 @@
         {
             "terraform_version": "= 1.0.0",
             "provider_version": {
-                "hashicorp/aws": "FROM_REQUIREMENTS"
+                "hashicorp/aws": "4.47.0"
             }
         },
         {

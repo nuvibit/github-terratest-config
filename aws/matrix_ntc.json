@@ -1,15 +1,21 @@
 {
     "include": [
         {
-            "terraform_version": "= 1.0.0",
+            "terraform_version": "= 1.3.1",
             "provider_version": {
                 "hashicorp/aws": "FROM_REQUIREMENTS"
             }
         },
         {
-            "terraform_version": "~> 1.0",
+            "terraform_version": "~> 1.3",
             "provider_version": {
                 "hashicorp/aws": "4.X.X"
+            }
+        },
+        {
+            "terraform_version": "> 1.3",
+            "provider_version": {
+                "hashicorp/aws": "X.X.X"
             }
         }
     ]
