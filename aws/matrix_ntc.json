@@ -2,7 +2,7 @@
     "include": [
         {
             "binary": "terraform",
-            "terraform_version": "= 1.3.1",
+            "terraform_version": "FROM_REQUIREMENTS",
             "provider_version": {
                 "hashicorp/aws": "FROM_REQUIREMENTS"
             }
