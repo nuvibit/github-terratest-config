@@ -8,6 +8,13 @@
             }
         },
         {
+            "binary": "opentofu",
+            "terraform_version": "< 1.9",
+            "provider_version": {
+                "hashicorp/aws": "5.X.X"
+            }
+        },
+        {
             "binary": "terraform",
             "terraform_version": ">= 1.6",
             "provider_version": {
