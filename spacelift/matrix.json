@@ -1,22 +1,22 @@
 {
     "include": [
         {
-            "binary": "opentofu",
-            "terraform_version": "= 1.6.0",
+            "binary": "terraform",
+            "terraform_version": "FROM_REQUIREMENTS",
             "provider_version": {
-                "spacelift-io/spacelift": "1.0.0"
+                "spacelift-io/spacelift": "FROM_REQUIREMENTS"
             }
         },
         {
             "binary": "opentofu",
-            "terraform_version": ">= 1.6",
+            "terraform_version": ">= 1.10",
             "provider_version": {
                 "spacelift-io/spacelift": "X.X.X"
             }
         },
         {
             "binary": "terraform",
-            "terraform_version": ">= 1.6",
+            "terraform_version": ">= 1.10",
             "provider_version": {
                 "spacelift-io/spacelift": "X.X.X"
             }
