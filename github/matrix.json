@@ -1,0 +1,25 @@
+{
+    "include": [
+        {
+            "binary": "terraform",
+            "terraform_version": "FROM_REQUIREMENTS",
+            "provider_version": {
+                "integrations/github": "FROM_REQUIREMENTS"
+            }
+        },
+        {
+            "binary": "opentofu",
+            "terraform_version": ">= 1.10",
+            "provider_version": {
+                "integrations/github": "X.X.X"
+            }
+        },
+        {
+            "binary": "terraform",
+            "terraform_version": ">= 1.10",
+            "provider_version": {
+                "integrations/github": "X.X.X"
+            }
+        }
+    ]
+}
